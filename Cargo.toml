@@ -1,4 +1,5 @@
 [package]
+<<<<<<< HEAD
 name = "snake"
 version = "0.1.0"
 authors = ["tensor-programming <Cylia and Ken>"]
@@ -6,3 +7,17 @@ authors = ["tensor-programming <Cylia and Ken>"]
 [dependencies]
 rand = "0.7"
 piston_window = "0.103.0"
+=======
+name = "snake_game"
+version = "0.1.0"
+authors = ["Ken Mavoungou <ken.mavoungou@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston = "0.36.0"
+piston2d-graphics = "0.26.0"
+pistoncore-glutin_window = "0.45.0"
+piston2d-opengl_graphics = "0.52.0"
+>>>>>>> 3f5b2ff6db25b098ed3bf1a8761ebe6db0a55ee7
